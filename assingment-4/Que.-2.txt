@@ -1,0 +1,16 @@
+Que.-> What is the use of isNaN function? 
+
+Ans.-> isNan() function is used in different programming languages but still serves the same purpose. The function either returns true or false depending on                                                     the argument or the variable it is working with.  
+
+       “NAN” stands for Not a Number.
+
+       Returns ‘true’ if the argument or the value is not a number or ‘false’ in case otherwise.
+
+       This can be understood with the help of an example :
+
+*//JAVA Code*
+
+       Double a = new Double (3.0/1.0);
+       Double b = new Double (0.0/0.0);
+       System.out.println(a + “ = ” + a.isNan()); //returns false
+       System.out.println(b + “ = ” + b.isNan()); //returns true
